@@ -8,9 +8,9 @@ function run(){
   file_put_contents('info/message.json',$arr);
  
 
-  $bot = new bot("1618755473:AAHoWQLqmguqUsf83OMKbEEOgbMTMlV7rt4");
+  $bot = new bot("INPUT YOUR TELEGRAM BOT API KEY HERE");
   $bot -> update($data);
-  $cryptosoul = new cryptosoul("m9DeeAgkJPPvGWwuQmGTB6ZcKYAYakQp");
+  $cryptosoul = new cryptosoul("INPUT YOUR CRYPTOSOUL API KEY HERE");
   
   if(!empty($bot->d_text)){
     switch($bot->d_text){
